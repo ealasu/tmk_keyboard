@@ -55,7 +55,7 @@ SRC =	keymap_common.c \
 	matrix.c \
 	led.c
 
-KEYMAP ?= qwerty
+KEYMAP ?= eman
 SRC := keymap_$(KEYMAP).c $(SRC)
 
 CONFIG_H = config.h

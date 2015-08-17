@@ -1,2 +1,2 @@
 #!/bin/bash
-make USB=/dev/tty.usbmodem1411 upload
+make USB=/dev/tty.usbmodem* upload
